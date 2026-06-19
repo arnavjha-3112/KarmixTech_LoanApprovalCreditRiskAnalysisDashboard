@@ -7,9 +7,11 @@ _Analyzing loan application data to understand approval patterns, evaluate credi
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#data-preparation">Data Preparation</a>
 - <a href="#analysis--key-findings">Analysis & Key Findings</a>
+- <a href="#sql-queries">SQL Queries</a>
 - <a href="#dashboard">Dashboard</a>
 - <a href="#final-recommendations">Final Recommendations</a>
 - <a href="#author--contact">Author & Contact</a>
@@ -32,6 +34,12 @@ Financial institutions must balance loan growth with credit risk management. App
 - Identify high-risk and low-risk customer segments
 - Understand approval behavior across applicant categories
 - Generate actionable recommendations for better lending decisions
+
+---
+
+<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+
+- Dataset used in this project: [Dataset Link](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset)
 
 ---
 
@@ -74,6 +82,14 @@ The following business metrics were created:
 4. **Excellent and Good Credit Segments Show Strong Approval Rates**: Customers with higher credit scores experienced substantially better approval outcomes, highlighting the importance of maintaining strong credit health
 5. **Low-Risk Customers Dominate Approved Loans**: Most approved applications belong to the **Low-Risk** category, while the majority of rejected applications fall under **High-Risk** profiles
 6. **Asset Coverage Ratio Shows Limited Influence**: Average asset coverage remained relatively similar between approved and rejected applicants, suggesting that credit score and risk profile have greater influence on lending decisions
+
+---
+
+<h2><a class="anchor" id="sql-queries"></a>
+SQL Queries</h2>
+
+All SQL queries used for analysis:  
+[View SQL Queries](sql/loan_analysis_queries.sql)
 
 ---
 
